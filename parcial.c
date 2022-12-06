@@ -1,5 +1,4 @@
 #include<stdio.h>
-
 #include<stdlib.h>
 
 struct nodo {
@@ -153,7 +152,7 @@ void borrar(struct nodo *reco)
         free(reco);
     }
 }
-
+//BRAYAN MORENO//
 
 int main()
 {
@@ -169,7 +168,7 @@ int main()
     insertar(9);
     insertar(12);
     insertar(21);
-    printf("Impresion entreorden: ");
+    printf(" entreorden: ");
     imprimirEntre(raiz);
     printf("\n");
     cant=0;
